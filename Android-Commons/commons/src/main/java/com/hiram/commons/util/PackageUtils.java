@@ -45,7 +45,7 @@ import cn.trinea.android.common.util.ShellUtils.CommandResult;
  * <li>{@link PackageUtils#startInstalledAppDetails(Context, String)} start InstalledAppDetails Activity</li>
  * </ul>
  * 
- * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2013-5-15
+ * 作者： hiram on 2017/3/22
  */
 public class PackageUtils {
 

@@ -62,55 +62,6 @@ public class ViewUtils {
         return height;
     }
 
-    // /**
-    // * get GridView height according to every children
-    // *
-    // * @param view
-    // * @return
-    // */
-    // public static int getGridViewHeightBasedOnChildren(GridView view) {
-    // int height = getAbsListViewHeightBasedOnChildren(view);
-    // ListAdapter adapter;
-    // int adapterCount, numColumns = getGridViewNumColumns(view);
-    // if (view != null && (adapter = view.getAdapter()) != null && (adapterCount = adapter.getCount()) > 0
-    // && numColumns > 0) {
-    // int rowCount = (int)Math.ceil(adapterCount / (double)numColumns);
-    // height = rowCount * (height / adapterCount + getGridViewVerticalSpacing(view));
-    // }
-    // return height;
-    // }
-    //
-    // /**
-    // * get GridView columns number
-    // *
-    // * @param view
-    // * @return
-    // */
-    // public static int getGridViewNumColumns(GridView view) {
-    // if (view == null || view.getChildCount() <= 0) {
-    // return 0;
-    // }
-    // if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-    // return getNumColumnsCompat11(view);
-    //
-    // } else {
-    // int columns = 0;
-    // int children = view.getChildCount();
-    // if (children > 0) {
-    // int width = view.getChildAt(0).getMeasuredWidth();
-    // if (width > 0) {
-    // columns = view.getWidth() / width;
-    // }
-    // }
-    // return columns;
-    // }
-    // }
-    //
-    // @TargetApi(11)
-    // private static int getNumColumnsCompat11(GridView view) {
-    // return view.getNumColumns();
-    // }
-
     private static final String CLASS_NAME_GRID_VIEW        = "android.widget.GridView";
     private static final String FIELD_NAME_VERTICAL_SPACING = "mVerticalSpacing";
 
@@ -180,15 +131,6 @@ public class ViewUtils {
         params.height = height;
     }
 
-    // /**
-    // * set GistView height which is calculated by {@link # getGridViewHeightBasedOnChildren(GridView)}
-    // *
-    // * @param view
-    // * @return
-    // */
-    // public static void setGridViewHeightBasedOnChildren(GridView view) {
-    // setViewHeight(view, getGridViewHeightBasedOnChildren(view));
-    // }
 
     /**
      * set ListView height which is calculated by {@link # getListViewHeightBasedOnChildren(ListView)}

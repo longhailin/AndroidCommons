@@ -26,7 +26,7 @@ import android.content.SharedPreferences;
  * <li>get boolean {@link #getBoolean(Context, String)}, {@link #getBoolean(Context, String, boolean)}</li>
  * </ul>
  * 
- * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2013-3-6
+ * 作者： hiram on 2017/3/23
  */
 public class PreferencesUtils {
 

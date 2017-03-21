@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 /**
  * String Utils
- * 
+ * 字符串工具类
  * 作者： hiram on 2017/3/23
  */
 public class StringUtils {

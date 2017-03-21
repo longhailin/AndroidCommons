@@ -5,7 +5,7 @@ import java.util.Date;
 
 /**
  * TimeUtils
- * 
+ * 时间格式工具类
  * 作者： hiram on 2017/3/23
  */
 public class TimeUtils {

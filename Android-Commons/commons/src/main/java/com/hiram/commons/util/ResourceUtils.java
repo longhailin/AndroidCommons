@@ -10,8 +10,8 @@ import android.content.Context;
 
 /**
  * ResourceUtils
- * 
- * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2012-5-26
+ * 从Assert 或者RAW中获取文本文件内容
+ * 作者： hiram on 2017/3/23
  */
 public class ResourceUtils {
 

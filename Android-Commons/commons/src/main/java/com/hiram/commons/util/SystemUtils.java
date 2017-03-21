@@ -2,7 +2,7 @@ package com.hiram.commons.util;
 
 /**
  * SystemUtils
- * 
+ * 获取系统默认线程池大小(根据CPU核心计算)
  * 作者： hiram on 2017/3/23
  */
 public class SystemUtils {
@@ -26,7 +26,7 @@ public class SystemUtils {
 
     /**
      * get recommend default thread pool size
-     * 
+     * 获取cpu核心数：Runtime.getRuntime().availableProcessors()
      * @param max
      * @return if 2 * availableProcessors + 1 less than max, return it, else return max;
      */

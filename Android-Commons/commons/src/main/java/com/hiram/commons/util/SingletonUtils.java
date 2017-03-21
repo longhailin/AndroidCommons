@@ -1,10 +1,9 @@
 package com.hiram.commons.util;
 
 /**
- * Singleton helper class for lazily initialization.
- * 
+ * Singleton helper class
+ * 单例模式帮助类
  * 作者： hiram on 2017/3/23
- * 
  * @param <T>
  */
 public abstract class SingletonUtils<T> {

@@ -36,8 +36,7 @@ public class ShellUtils {
     }
 
     /**
-     * check whether has root permission
-     * 
+     * 检查是否有root权限
      * @return
      */
     public static boolean checkRootPermission() {
@@ -45,10 +44,9 @@ public class ShellUtils {
     }
 
     /**
-     * execute shell command, default return result msg
-     * 
+     * 执行shell命令、返回运行结果
      * @param command command
-     * @param isRoot whether need to run with root
+     * @param isRoot 是否需要在root环境下运行
      * @return
      * @see ShellUtils#execCommand(String[], boolean, boolean)
      */
@@ -57,8 +55,7 @@ public class ShellUtils {
     }
 
     /**
-     * execute shell commands, default return result msg
-     * 
+     * 执行shell命令、返回运行结果
      * @param commands command list
      * @param isRoot whether need to run with root
      * @return
@@ -69,7 +66,7 @@ public class ShellUtils {
     }
 
     /**
-     * execute shell commands, default return result msg
+     * 执行shell命令、返回运行结果
      * 
      * @param commands command array
      * @param isRoot whether need to run with root
@@ -81,7 +78,7 @@ public class ShellUtils {
     }
 
     /**
-     * execute shell command
+     * 执行shell命令
      * 
      * @param command command
      * @param isRoot whether need to run with root
@@ -94,7 +91,7 @@ public class ShellUtils {
     }
 
     /**
-     * execute shell commands
+     * 执行shell命令
      * 
      * @param commands command list
      * @param isRoot whether need to run with root
@@ -107,7 +104,7 @@ public class ShellUtils {
     }
 
     /**
-     * execute shell commands
+     * 执行shell命令
      * 
      * @param commands command array
      * @param isRoot whether need to run with root
@@ -197,8 +194,6 @@ public class ShellUtils {
      * <li>{@link CommandResult#successMsg} means success message of command result</li>
      * <li>{@link CommandResult#errorMsg} means error message of command result</li>
      * </ul>
-     * 
-     * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2013-5-16
      */
     public static class CommandResult {
 
